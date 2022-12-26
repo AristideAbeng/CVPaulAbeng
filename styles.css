@@ -94,3 +94,22 @@ a{
     color: white;
 
 }
+@media screen and (max-width: 600px) {
+    
+    .cvBlock{
+        width: 100%;
+        height: 100%;
+        font-family: Montserrat;
+        border-radius: 2%;
+    }
+    .leftBlock{
+        background-color: #195e92;
+        width: 100%;
+    }
+    .rightBlock{
+        background-color: white;
+        background-image: linear-gradient(#195e92,#6c95b3);
+        width: 100%;
+    
+    }
+  }
