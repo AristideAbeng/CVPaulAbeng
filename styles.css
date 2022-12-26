@@ -35,11 +35,12 @@ img{
 .leftBlock{
     background-color: #195e92;
    flex-basis: 275px;
+   flex-grow: 1;
 }
 .rightBlock{
     background-color: white;
     background-image: linear-gradient(#195e92,#6c95b3);
-   flex-grow: 1;
+   flex-grow: 4;
    flex-shrink: 1;
    flex-basis: 275px;
 
