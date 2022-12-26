@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+.cvBlock{
+    width: 90vw;
+    height: 80vh;
+    font-family: Montserrat;
+    border-radius: 2%;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.generalBlock{
+    display: flex;
+    justify-content: center;
+}
+.horizontalBlock{
+    display:flex;
+    flex-flow:row wrap;
+    
+    
+}
+.profileImage{
+    padding-left: 10%;
+    padding-top: 5%;
+    
+    
+}
+.myPresentation{
+    padding-top: 5%;
+    padding-left: 2%;
+}
+.leftBlock{
+    background-color: #195e92;
+   flex-basis: 275px;
+}
+.rightBlock{
+    background-color: white;
+    background-image: linear-gradient(#195e92,#6c95b3);
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 275px;
+
+}
+.star{
+    width: 20px;
+    height: 20px;
+}
+.contactBlock{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.educationBlock,.ExperienceBlock{
+    padding-left: 2%;
+}
+.eduPeriod{
+    font-weight: bold;
+}
+.skillsInterestBlock{
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+.skillsBlock{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.interestBlock{
+    display: flex;
+    flex-flow: column nowrap;
+    text-align:center;
+}
+h2,h1,.pageTitles{
+    color:white;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 1%;
+}
+.contactLinks{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.myTitle{
+    font-weight: 800;
+    color: white;
+
+}
